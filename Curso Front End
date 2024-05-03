@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso FrontEnd</title>
+    <link rel="stylesheet" href="imagem.css">
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="a3">Ínicio</a>
+                    <li class="a3"><a href="">Blog</a>
+                    <li class="a3"><a href="">Cursos</a>
+                </ul>
+            </nav>
+            <section>
+                
+                <div class="div1">
+                <h1>CURSOS SER FRONTEND</h1>
+                        </div>
+                <div class="div2">
+                    <p class="p1">Tudo o que precisa saber para iniciar na carreira</p>
+                
+                </div>
+            </section>
+    </header>
+
+<div>
+    
+    <main>
+        <article class="ar1">
+            <h2 class="h21">O HTML</h2>
+            <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+        
+            <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/link">Saiba mais</a></p>
+            </article>
+        
+            <article class="ar2">
+            <h2>O CSS</h2>
+            <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
+        
+            <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Saiba mais</a></p>
+            </article>
+            <article class="ar3">
+            <h2>Javascript</h2>
+            <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.</p>
+        
+            <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Saiba mais</a></p>
+        </article>
+        </div>
+    </main>
+
+
+<footer>Copyright © 2016</footer>
+    
+</body>
+</html>
+body{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(bg-3.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size:cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+nav ul a{
+    padding: 16px;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li{
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+    
+    
+}
+
+nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+    text-decoration: none;
+    
+
+}
+
+.div1{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+    color: aliceblue;
+}
+section{
+    margin-top: 100px;
+    text-align: center;
+
+}
+.div2{
+    font-size: 16px;
+    display: inline-block;
+    padding: 1px;
+    color:white;
+    background-color: rgba(0, 0,0, 0.3);
+    border-bottom: 2px solid white;
+}
+main{
+    max-width: 860px;
+    margin:auto;
+    width: 60%  
+}
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.ar1{
+    margin-top: 32px;
+}
+p a{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #cccc;
+    text-decoration: none;
+    color: black;
+    
+}
+footer{
+    background-color: rgb(65, 54, 54);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1.5px;
+}
+
+
+
